@@ -68,20 +68,14 @@ ITEM_PIPELINES = {
    'Houzz.pipelines.HouzzPipeline': 300,
 }
 # mysql数据库配置
-MYSQL_HOST = '172.31.177.248'
-MYSQL_DBNAME = 'houzz'         # 数据库名字
-MYSQL_USER = 'caiji'                 # 数据库账号
-MYSQL_PASSWD = 'caiji_behance@2017'              # 数据库密码
-CHARSET = 'utf8'                    # 编码
+MYSQL_HOST = ''
+MYSQL_DBNAME = ''         # 数据库名字
+MYSQL_USER = ''                 # 数据库账号
+MYSQL_PASSWD = ''              # 数据库密码
+CHARSET = ''                    # 编码
 MYSQL_PORT = 3306                   # 数据库端口
 
-# mysql数据库配置
-# MYSQL_HOST = '127.0.0.1'
-# MYSQL_DBNAME = 'houzz'         # 数据库名字，请修改
-# MYSQL_USER = 'root'             # 数据库账号，请修改
-# MYSQL_PASSWD = 'mysql'         # 数据库密码，请修改
-# CHARSET = 'utf8'                # 编码
-# MYSQL_PORT = 3306               # 数据库端口
+
 
 #redis数据库连接
 # Redis = redis.StrictRedis(host='localhost', port=6379, db=0)
